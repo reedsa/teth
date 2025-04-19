@@ -6,6 +6,26 @@ Simple JSON-RPC server for EthereumTesterProvider.
 
 To get started with Teth, follow these steps:
 
+```bash
+pip install teth
+```
+or
+```bash
+uv tool install teth
+```
+
+## Usage
+
+Run the application with:
+
+```bash
+teth
+```
+
+## Development
+
+Steps for developing teth:
+
 1. Clone the repository:
     ```bash
     git clone https://github.com/reedsa/teth.git
@@ -18,13 +38,10 @@ To get started with Teth, follow these steps:
     ```bash
     uv sync
     ```
-
-## Usage
-
-Run the application with:
-```bash
-uv run teth
-```
+3. Run teth:
+    ```bash
+    uv run teth
+    ```
 
 ## Contributing
 

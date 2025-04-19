@@ -13,6 +13,12 @@ dependencies = [
     "flask>=3.1.0",
     "web3[tester]>=7.10.0",
 ]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/reedsa/teth"
+Issues = "https://github.com/reedsa/teth/issues"
 
 [project.scripts]
 teth = "teth:main"
